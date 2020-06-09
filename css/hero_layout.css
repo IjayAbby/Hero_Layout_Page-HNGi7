@@ -79,11 +79,14 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  max-height: 40px;
+  background-size: cover;
+  overflow-y: inherit;
 }
 h1{
   text-align: center;
