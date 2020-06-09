@@ -1,10 +1,13 @@
 * {box-sizing:border-box}
 
+
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  max-height: 40px;
+  background-size: cover;
+  overflow-y: inherit;
 }
 h1{
   text-align: center;
