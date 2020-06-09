@@ -5,59 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/hero_layout.css"/>
   
-<body>    
+<body> 
+  <link rel="stylesheet" href="./css/hero_layout.css">
+
+  <div class="topnav" id="myTopnav">
+    <a href="#contact-us">Contact Us</a>
+    <a href="facilities">Facilities</a>
+    <a href="#room-and-rates">Room & Rates</a>
+    <a href="#home" class="active">Home</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>   
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Adult</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"> 1</a>
+      <a href="#"> 2</a>
+      <a href="#"> 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Child</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"> 1</a>
+      <a href="#"> 2</a>
+      <a href="#"> 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Check-In</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"> 1</a>
+      <a href="#"> 2</a>
+      <a href="#"> 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Check-Out</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"> 1</a>
+      <a href="#"> 2</a>
+      <a href="#"> 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">BOOK NOW</button>
+    <div id="myDropdown" class="dropdown-content">
+    </div>
+  </div>
+  
     <title>Le Hotel</title>
     <div class="slideshow-container">
-      <h1>THE ROYAL HOTEL</h1>
+      <h1>THE GRAND ROYAL HOTEL</h1>
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 8</div>
-        <img src="./Images/logo.jpg" style="width:100%">
-        <div class="text"></div>
+        <div class="numbertext">1 / 6</div>
+        <img src="./Images/swiss.jpeg" style="width:100%">
+        <div class="text" id="slides" style="color:white">Perfect for Business & Leisure Travellers Visiting Kenya.</div>
         
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">2 / 8</div>
+        <div class="numbertext">2 / 6</div>
         <img src="./Images/manor-house-2359884.jpg" style="width:100%">
-        <div class="text">Manor House</div>
+        <div class="text" id=slides2 style="color: black;">Perfect Recreational Facilities.</div>
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">3 / 8</div>
+        <div class="numbertext">3 / 6</div>
         <img src="./Images/beach-612553_1920.jpg" style="width:100%">
-        <div class="text">Sandy Beaches</div>
+        <div class="text" id=slides3 style="color: black;">Sandy Beaches.</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">4 / 8</div>
+        <div class="numbertext">4 / 6</div>
         <img src="./Images/bar.jpg" style="width:100%">
-        <div class="text">Bar</div>
+        <div class="text" id = "slides">World-Class Cocktails</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">5 / 8</div>
+        <div class="numbertext">5 / 6</div>
         <img src="./Images/exclusive-banquet-1812772_1920.jpg" style="width:100%">
-        <div class="text">Exclusive Banquet</div>
+        <div class="text" id = "slides1" style="color: black;">Ideal For Cooperate Conferences & Meetings.</div>
       </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">6 / 8</div>
-        <img src="./Images/wine-1838132_1920.jpg" style="width:100%">
-        <div class="text">wine</div>
-      </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">7 / 8</div>
+        <div class="numbertext">6 / 6</div>
         <img src="./Images/executive_room.jpg" style="width:100%">
-        <div class="text">Executive Rooms</div>
+        <div class="text" id = "slides1" style="color: black;">Executive Rooms with Wifi Available.</div>
       </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">8 / 8</div>
-        <img src="./Images/washroom.jpg" style="width:100%">
-        <div class="text">Restroom</div>
-      </div>
     
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -73,8 +117,8 @@
       <span class="dot" onclick="currentSlide(4)"></span>
       <span class="dot" onclick="currentSlide(5)"></span>
       <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
+    
+      
     </div>
     </body>
     
