@@ -1,4 +1,5 @@
-# HNGi7 Internship Task-Hero_Layout_Page.
+# HNGi7 Internship Task
+*Hero_Layout_Page.*
 Creating a simple Hero Layout page.
 A hero image is a large or oversized web banner image that is pinned to the header section of
 a webpage, usually towards the top of the page. Because of its prominent place in the site's 
