@@ -1,0 +1,30 @@
+/* .image-item {
+    height: 50vh;
+} */
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.nav-item {
+    color: #144673 !important;
+    font-weight: 800;
+}
+
+.nav-item-right {
+    font-size: medium !important;
+}
+
+.card-header {
+    background-color: #144673 !important;
+    color: white;
+    width: 90vw;
+    position: absolute;
+    top: 10;
+    z-index: 100;
+}
+
+.blue-button {
+   background-color: #144673 !important;
+}
